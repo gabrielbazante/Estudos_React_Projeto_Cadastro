@@ -26,7 +26,7 @@ export default function Tabela(props: TabelaProps) {
         return props.clientes?.map((cliente, i) => {
             return (
                 <tr key={cliente.id} className={`
-                    ${i % 2 === 0 ? 'bg-purple-200' : 'bg-purple-100'}
+                    ${i % 2 === 0 ? 'bg-gray-200' : 'bg-gray-100'}
                 `}>
                     <td className="text-left p-4">{cliente.id}</td>
                     <td className="text-left p-4">{cliente.nome}</td>
@@ -66,7 +66,7 @@ export default function Tabela(props: TabelaProps) {
     return (
         <table className="w-full rounded-xl overflow-hidden">
             <thead className={`
-                bg-gradient-to-r from-purple-500 to-purple-800
+                bg-gradient-to-r from-blue-500 to-purple-800
                 text-gray-100
             `}>
                 {renderizarCabecalho()}

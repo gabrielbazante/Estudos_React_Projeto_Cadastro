@@ -28,7 +28,7 @@ export default function Home() {
           <>
             <div className="flex justify-end">
               <Botao cor="blue" 
-                     className="mb-4"
+                     className="mb-4 bg-gradient-to-r from-blue-500 to-blue-700"
                      onClick={novoCliente}>
                   Novo Cliente
               </Botao>
