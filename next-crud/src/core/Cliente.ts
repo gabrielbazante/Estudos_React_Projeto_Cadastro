@@ -10,7 +10,7 @@ export default class Cliente {
     }
 
     static vazio() {
-        return new Cliente('', 0, null)
+        return new Cliente('', 0, '')
     }
 
     get id() {
