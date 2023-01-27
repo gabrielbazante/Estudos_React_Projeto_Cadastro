@@ -17,7 +17,7 @@ export default function Tabela(props: TabelaProps) {
                 <th className="text-left p-4">Código</th>
                 <th className="text-left p-4">Nome</th>
                 <th className="text-left p-4">Idade</th>
-                {exibirAcoes ? <th className="text-left p-4">Ações</th> : false}
+                {exibirAcoes ? <th className="p-4">Ações</th> : false}
             </tr>
         )
     }
